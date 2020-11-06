@@ -1,0 +1,6 @@
+framework module Pods_GOKFellipe_GOKFellipeUITests {
+  umbrella header "Pods-GOKFellipe-GOKFellipeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

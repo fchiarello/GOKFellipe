@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE17F34E87195F433FAB366 /* Pods_GOKFellipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E28C4AEAD9E03F48AD5D9 /* Pods_GOKFellipeTests.framework */; };
+		6B59E28439C3BCF65C1DCD9D /* Pods_GOKFellipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DA34CCF6620A7AF6ECCDCD /* Pods_GOKFellipe.framework */; };
+		921EAF6F25532DD800B64474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAF6E25532DD800B64474 /* AppDelegate.swift */; };
+		921EAF7125532DD800B64474 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAF7025532DD800B64474 /* SceneDelegate.swift */; };
+		921EAF7825532DDC00B64474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921EAF7725532DDC00B64474 /* Assets.xcassets */; };
+		921EAF7B25532DDC00B64474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921EAF7925532DDC00B64474 /* LaunchScreen.storyboard */; };
+		921EAF8625532DDC00B64474 /* GOKFellipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAF8525532DDC00B64474 /* GOKFellipeTests.swift */; };
+		921EAF9125532DDC00B64474 /* GOKFellipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAF9025532DDC00B64474 /* GOKFellipeUITests.swift */; };
+		921EAFAD25532FEE00B64474 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAFAC25532FEE00B64474 /* MainViewController.swift */; };
+		921EAFB82553455E00B64474 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAFB72553455E00B64474 /* FirstCollectionViewCell.swift */; };
+		921EAFBD255367D900B64474 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAFBC255367D900B64474 /* ProductsCollectionViewCell.swift */; };
+		921EAFC225542EA000B64474 /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAFC125542E9F00B64474 /* ViewCodeProtocol.swift */; };
+		921EAFFC25557E2D00B64474 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EAFFB25557E2D00B64474 /* Service.swift */; };
+		921EB0052555830800B64474 /* Spotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0042555830800B64474 /* Spotlight.swift */; };
+		921EB00D2555836100B64474 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB00C2555836100B64474 /* Products.swift */; };
+		921EB0122555838D00B64474 /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0112555838D00B64474 /* Cash.swift */; };
+		921EB0172555839D00B64474 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0162555839D00B64474 /* MainModel.swift */; };
+		EF13F2BC59BAC17106E33B0B /* Pods_GOKFellipe_GOKFellipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABC90DAC0B7F6081420381F /* Pods_GOKFellipe_GOKFellipeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921EAF8225532DDC00B64474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921EAF6325532DD800B64474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921EAF6A25532DD800B64474;
+			remoteInfo = GOKFellipe;
+		};
+		921EAF8D25532DDC00B64474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921EAF6325532DD800B64474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921EAF6A25532DD800B64474;
+			remoteInfo = GOKFellipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A26112A5C6999EBD5011A8 /* Pods-GOKFellipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipeTests.debug.xcconfig"; path = "Target Support Files/Pods-GOKFellipeTests/Pods-GOKFellipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12DA34CCF6620A7AF6ECCDCD /* Pods_GOKFellipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOKFellipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABC90DAC0B7F6081420381F /* Pods_GOKFellipe_GOKFellipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOKFellipe_GOKFellipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADE9594D3D34D2BB8D29C9B /* Pods-GOKFellipe-GOKFellipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipe-GOKFellipeUITests.release.xcconfig"; path = "Target Support Files/Pods-GOKFellipe-GOKFellipeUITests/Pods-GOKFellipe-GOKFellipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72D361D202AD8DEE346D7730 /* Pods-GOKFellipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipe.release.xcconfig"; path = "Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe.release.xcconfig"; sourceTree = "<group>"; };
+		7A3BC70E4130B8438AD8C0D4 /* Pods-GOKFellipe-GOKFellipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipe-GOKFellipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-GOKFellipe-GOKFellipeUITests/Pods-GOKFellipe-GOKFellipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		864E28C4AEAD9E03F48AD5D9 /* Pods_GOKFellipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOKFellipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8861D841B38C396D58B82119 /* Pods-GOKFellipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipeTests.release.xcconfig"; path = "Target Support Files/Pods-GOKFellipeTests/Pods-GOKFellipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		921EAF6B25532DD800B64474 /* GOKFellipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOKFellipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921EAF6E25532DD800B64474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		921EAF7025532DD800B64474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		921EAF7725532DDC00B64474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921EAF7A25532DDC00B64474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		921EAF7C25532DDC00B64474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921EAF8125532DDC00B64474 /* GOKFellipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOKFellipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921EAF8525532DDC00B64474 /* GOKFellipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOKFellipeTests.swift; sourceTree = "<group>"; };
+		921EAF8725532DDC00B64474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921EAF8C25532DDC00B64474 /* GOKFellipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOKFellipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921EAF9025532DDC00B64474 /* GOKFellipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOKFellipeUITests.swift; sourceTree = "<group>"; };
+		921EAF9225532DDC00B64474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921EAFAC25532FEE00B64474 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		921EAFB72553455E00B64474 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		921EAFBC255367D900B64474 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		921EAFC125542E9F00B64474 /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		921EAFFB25557E2D00B64474 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		921EB0042555830800B64474 /* Spotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotlight.swift; sourceTree = "<group>"; };
+		921EB00C2555836100B64474 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		921EB0112555838D00B64474 /* Cash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
+		921EB0162555839D00B64474 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		9DED5DFEFF9BCCA584EFD17B /* Pods-GOKFellipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipe.debug.xcconfig"; path = "Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921EAF6825532DD800B64474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B59E28439C3BCF65C1DCD9D /* Pods_GOKFellipe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921EAF7E25532DDC00B64474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE17F34E87195F433FAB366 /* Pods_GOKFellipeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921EAF8925532DDC00B64474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF13F2BC59BAC17106E33B0B /* Pods_GOKFellipe_GOKFellipeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921EAF6225532DD800B64474 = {
+			isa = PBXGroup;
+			children = (
+				921EAF7C25532DDC00B64474 /* Info.plist */,
+				921EAF6D25532DD800B64474 /* GOKFellipe */,
+				921EAF8425532DDC00B64474 /* GOKFellipeTests */,
+				921EAF8F25532DDC00B64474 /* GOKFellipeUITests */,
+				921EAF6C25532DD800B64474 /* Products */,
+				FF7D702F054C8F51F320C181 /* Pods */,
+				D3A7AA6FBA128EC47DB0E24C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		921EAF6C25532DD800B64474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921EAF6B25532DD800B64474 /* GOKFellipe.app */,
+				921EAF8125532DDC00B64474 /* GOKFellipeTests.xctest */,
+				921EAF8C25532DDC00B64474 /* GOKFellipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921EAF6D25532DD800B64474 /* GOKFellipe */ = {
+			isa = PBXGroup;
+			children = (
+				921EB0032555825E00B64474 /* Models */,
+				921EAFFA25557E1500B64474 /* Service */,
+				921EAFC625542EA700B64474 /* Common */,
+				921EAFB3255337C800B64474 /* Controller */,
+				921EAFB2255337AF00B64474 /* Views */,
+				921EAFB12553317B00B64474 /* Root */,
+				921EAF7725532DDC00B64474 /* Assets.xcassets */,
+			);
+			path = GOKFellipe;
+			sourceTree = "<group>";
+		};
+		921EAF8425532DDC00B64474 /* GOKFellipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				921EAF8525532DDC00B64474 /* GOKFellipeTests.swift */,
+				921EAF8725532DDC00B64474 /* Info.plist */,
+			);
+			path = GOKFellipeTests;
+			sourceTree = "<group>";
+		};
+		921EAF8F25532DDC00B64474 /* GOKFellipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				921EAF9025532DDC00B64474 /* GOKFellipeUITests.swift */,
+				921EAF9225532DDC00B64474 /* Info.plist */,
+			);
+			path = GOKFellipeUITests;
+			sourceTree = "<group>";
+		};
+		921EAFB12553317B00B64474 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				921EAF6E25532DD800B64474 /* AppDelegate.swift */,
+				921EAF7025532DD800B64474 /* SceneDelegate.swift */,
+				921EAF7925532DDC00B64474 /* LaunchScreen.storyboard */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		921EAFB2255337AF00B64474 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				921EAFB72553455E00B64474 /* FirstCollectionViewCell.swift */,
+				921EAFBC255367D900B64474 /* ProductsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		921EAFB3255337C800B64474 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				921EAFAC25532FEE00B64474 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		921EAFC625542EA700B64474 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				921EAFC125542E9F00B64474 /* ViewCodeProtocol.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		921EAFFA25557E1500B64474 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				921EAFFB25557E2D00B64474 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		921EB0032555825E00B64474 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				921EB0042555830800B64474 /* Spotlight.swift */,
+				921EB00C2555836100B64474 /* Products.swift */,
+				921EB0112555838D00B64474 /* Cash.swift */,
+				921EB0162555839D00B64474 /* MainModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3A7AA6FBA128EC47DB0E24C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12DA34CCF6620A7AF6ECCDCD /* Pods_GOKFellipe.framework */,
+				1ABC90DAC0B7F6081420381F /* Pods_GOKFellipe_GOKFellipeUITests.framework */,
+				864E28C4AEAD9E03F48AD5D9 /* Pods_GOKFellipeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7D702F054C8F51F320C181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DED5DFEFF9BCCA584EFD17B /* Pods-GOKFellipe.debug.xcconfig */,
+				72D361D202AD8DEE346D7730 /* Pods-GOKFellipe.release.xcconfig */,
+				7A3BC70E4130B8438AD8C0D4 /* Pods-GOKFellipe-GOKFellipeUITests.debug.xcconfig */,
+				2ADE9594D3D34D2BB8D29C9B /* Pods-GOKFellipe-GOKFellipeUITests.release.xcconfig */,
+				01A26112A5C6999EBD5011A8 /* Pods-GOKFellipeTests.debug.xcconfig */,
+				8861D841B38C396D58B82119 /* Pods-GOKFellipeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921EAF6A25532DD800B64474 /* GOKFellipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921EAF9525532DDC00B64474 /* Build configuration list for PBXNativeTarget "GOKFellipe" */;
+			buildPhases = (
+				5BC3E7BB7E327B3D82B2A7A6 /* [CP] Check Pods Manifest.lock */,
+				921EAF6725532DD800B64474 /* Sources */,
+				921EAF6825532DD800B64474 /* Frameworks */,
+				921EAF6925532DD800B64474 /* Resources */,
+				170BEB8FD79188254BC3049F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOKFellipe;
+			productName = GOKFellipe;
+			productReference = 921EAF6B25532DD800B64474 /* GOKFellipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921EAF8025532DDC00B64474 /* GOKFellipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921EAF9825532DDC00B64474 /* Build configuration list for PBXNativeTarget "GOKFellipeTests" */;
+			buildPhases = (
+				CED120BD1CE6180F93944516 /* [CP] Check Pods Manifest.lock */,
+				921EAF7D25532DDC00B64474 /* Sources */,
+				921EAF7E25532DDC00B64474 /* Frameworks */,
+				921EAF7F25532DDC00B64474 /* Resources */,
+				6DCA6EED3B73AF5D1923F388 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921EAF8325532DDC00B64474 /* PBXTargetDependency */,
+			);
+			name = GOKFellipeTests;
+			productName = GOKFellipeTests;
+			productReference = 921EAF8125532DDC00B64474 /* GOKFellipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		921EAF8B25532DDC00B64474 /* GOKFellipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921EAF9B25532DDC00B64474 /* Build configuration list for PBXNativeTarget "GOKFellipeUITests" */;
+			buildPhases = (
+				26939837974FE1634615C973 /* [CP] Check Pods Manifest.lock */,
+				921EAF8825532DDC00B64474 /* Sources */,
+				921EAF8925532DDC00B64474 /* Frameworks */,
+				921EAF8A25532DDC00B64474 /* Resources */,
+				F099D426B1DD4AC8022D4A89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921EAF8E25532DDC00B64474 /* PBXTargetDependency */,
+			);
+			name = GOKFellipeUITests;
+			productName = GOKFellipeUITests;
+			productReference = 921EAF8C25532DDC00B64474 /* GOKFellipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921EAF6325532DD800B64474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					921EAF6A25532DD800B64474 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					921EAF8025532DDC00B64474 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 921EAF6A25532DD800B64474;
+					};
+					921EAF8B25532DDC00B64474 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 921EAF6A25532DD800B64474;
+					};
+				};
+			};
+			buildConfigurationList = 921EAF6625532DD800B64474 /* Build configuration list for PBXProject "GOKFellipe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921EAF6225532DD800B64474;
+			productRefGroup = 921EAF6C25532DD800B64474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921EAF6A25532DD800B64474 /* GOKFellipe */,
+				921EAF8025532DDC00B64474 /* GOKFellipeTests */,
+				921EAF8B25532DDC00B64474 /* GOKFellipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921EAF6925532DD800B64474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921EAF7B25532DDC00B64474 /* LaunchScreen.storyboard in Resources */,
+				921EAF7825532DDC00B64474 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921EAF7F25532DDC00B64474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921EAF8A25532DDC00B64474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		170BEB8FD79188254BC3049F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26939837974FE1634615C973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOKFellipe-GOKFellipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC3E7BB7E327B3D82B2A7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOKFellipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DCA6EED3B73AF5D1923F388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOKFellipeTests/Pods-GOKFellipeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOKFellipeTests/Pods-GOKFellipeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GOKFellipeTests/Pods-GOKFellipeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED120BD1CE6180F93944516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOKFellipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F099D426B1DD4AC8022D4A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOKFellipe-GOKFellipeUITests/Pods-GOKFellipe-GOKFellipeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOKFellipe-GOKFellipeUITests/Pods-GOKFellipe-GOKFellipeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GOKFellipe-GOKFellipeUITests/Pods-GOKFellipe-GOKFellipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921EAF6725532DD800B64474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921EB00D2555836100B64474 /* Products.swift in Sources */,
+				921EB0052555830800B64474 /* Spotlight.swift in Sources */,
+				921EB0122555838D00B64474 /* Cash.swift in Sources */,
+				921EAFAD25532FEE00B64474 /* MainViewController.swift in Sources */,
+				921EAFFC25557E2D00B64474 /* Service.swift in Sources */,
+				921EAFC225542EA000B64474 /* ViewCodeProtocol.swift in Sources */,
+				921EB0172555839D00B64474 /* MainModel.swift in Sources */,
+				921EAFBD255367D900B64474 /* ProductsCollectionViewCell.swift in Sources */,
+				921EAF6F25532DD800B64474 /* AppDelegate.swift in Sources */,
+				921EAF7125532DD800B64474 /* SceneDelegate.swift in Sources */,
+				921EAFB82553455E00B64474 /* FirstCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921EAF7D25532DDC00B64474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921EAF8625532DDC00B64474 /* GOKFellipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921EAF8825532DDC00B64474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921EAF9125532DDC00B64474 /* GOKFellipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921EAF8325532DDC00B64474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921EAF6A25532DD800B64474 /* GOKFellipe */;
+			targetProxy = 921EAF8225532DDC00B64474 /* PBXContainerItemProxy */;
+		};
+		921EAF8E25532DDC00B64474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921EAF6A25532DD800B64474 /* GOKFellipe */;
+			targetProxy = 921EAF8D25532DDC00B64474 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921EAF7925532DDC00B64474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921EAF7A25532DDC00B64474 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921EAF9325532DDC00B64474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		921EAF9425532DDC00B64474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921EAF9625532DDC00B64474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DED5DFEFF9BCCA584EFD17B /* Pods-GOKFellipe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.GOKFellipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		921EAF9725532DDC00B64474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D361D202AD8DEE346D7730 /* Pods-GOKFellipe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.GOKFellipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		921EAF9925532DDC00B64474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A26112A5C6999EBD5011A8 /* Pods-GOKFellipeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = GOKFellipeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.GOKFellipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOKFellipe.app/GOKFellipe";
+			};
+			name = Debug;
+		};
+		921EAF9A25532DDC00B64474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8861D841B38C396D58B82119 /* Pods-GOKFellipeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = GOKFellipeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.GOKFellipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOKFellipe.app/GOKFellipe";
+			};
+			name = Release;
+		};
+		921EAF9C25532DDC00B64474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3BC70E4130B8438AD8C0D4 /* Pods-GOKFellipe-GOKFellipeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = GOKFellipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.GOKFellipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GOKFellipe;
+			};
+			name = Debug;
+		};
+		921EAF9D25532DDC00B64474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADE9594D3D34D2BB8D29C9B /* Pods-GOKFellipe-GOKFellipeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = GOKFellipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.GOKFellipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GOKFellipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921EAF6625532DD800B64474 /* Build configuration list for PBXProject "GOKFellipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921EAF9325532DDC00B64474 /* Debug */,
+				921EAF9425532DDC00B64474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921EAF9525532DDC00B64474 /* Build configuration list for PBXNativeTarget "GOKFellipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921EAF9625532DDC00B64474 /* Debug */,
+				921EAF9725532DDC00B64474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921EAF9825532DDC00B64474 /* Build configuration list for PBXNativeTarget "GOKFellipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921EAF9925532DDC00B64474 /* Debug */,
+				921EAF9A25532DDC00B64474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921EAF9B25532DDC00B64474 /* Build configuration list for PBXNativeTarget "GOKFellipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921EAF9C25532DDC00B64474 /* Debug */,
+				921EAF9D25532DDC00B64474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921EAF6325532DD800B64474 /* Project object */;
+}
