@@ -24,6 +24,9 @@
 		921EB00D2555836100B64474 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB00C2555836100B64474 /* Products.swift */; };
 		921EB0122555838D00B64474 /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0112555838D00B64474 /* Cash.swift */; };
 		921EB0172555839D00B64474 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0162555839D00B64474 /* MainModel.swift */; };
+		921EB01D2555F35300B64474 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB01C2555F35300B64474 /* MainViewModel.swift */; };
+		921EB0232556EBE400B64474 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0222556EBE400B64474 /* UIView+Extension.swift */; };
+		921EB0292556F80F00B64474 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0282556F80F00B64474 /* Constants.swift */; };
 		EF13F2BC59BAC17106E33B0B /* Pods_GOKFellipe_GOKFellipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABC90DAC0B7F6081420381F /* Pods_GOKFellipe_GOKFellipeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +77,9 @@
 		921EB00C2555836100B64474 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		921EB0112555838D00B64474 /* Cash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
 		921EB0162555839D00B64474 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		921EB01C2555F35300B64474 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		921EB0222556EBE400B64474 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		921EB0282556F80F00B64474 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9DED5DFEFF9BCCA584EFD17B /* Pods-GOKFellipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipe.debug.xcconfig"; path = "Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +137,9 @@
 		921EAF6D25532DD800B64474 /* GOKFellipe */ = {
 			isa = PBXGroup;
 			children = (
+				921EB0272556F7FF00B64474 /* Utils */,
+				921EB0212556EBC700B64474 /* Extensions */,
+				921EB01B2555F1EA00B64474 /* ViewModel */,
 				921EB0032555825E00B64474 /* Models */,
 				921EAFFA25557E1500B64474 /* Service */,
 				921EAFC625542EA700B64474 /* Common */,
@@ -212,6 +221,30 @@
 				921EB0162555839D00B64474 /* MainModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		921EB01B2555F1EA00B64474 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				921EB01C2555F35300B64474 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		921EB0212556EBC700B64474 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				921EB0222556EBE400B64474 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		921EB0272556F7FF00B64474 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				921EB0282556F80F00B64474 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D3A7AA6FBA128EC47DB0E24C /* Frameworks */ = {
@@ -493,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				921EB00D2555836100B64474 /* Products.swift in Sources */,
+				921EB0232556EBE400B64474 /* UIView+Extension.swift in Sources */,
 				921EB0052555830800B64474 /* Spotlight.swift in Sources */,
 				921EB0122555838D00B64474 /* Cash.swift in Sources */,
 				921EAFAD25532FEE00B64474 /* MainViewController.swift in Sources */,
@@ -502,7 +536,9 @@
 				921EAFBD255367D900B64474 /* ProductsCollectionViewCell.swift in Sources */,
 				921EAF6F25532DD800B64474 /* AppDelegate.swift in Sources */,
 				921EAF7125532DD800B64474 /* SceneDelegate.swift in Sources */,
+				921EB0292556F80F00B64474 /* Constants.swift in Sources */,
 				921EAFB82553455E00B64474 /* FirstCollectionViewCell.swift in Sources */,
+				921EB01D2555F35300B64474 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

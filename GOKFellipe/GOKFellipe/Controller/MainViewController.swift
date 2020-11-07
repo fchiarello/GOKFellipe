@@ -26,23 +26,52 @@ class MainViewController: UIViewController {
         return UILabel()
     }()
     
+    var viewModel: MainViewModel?
+    
     var firstCollectionView: UICollectionView?
     var productsCollectionView: UICollectionView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.viewModel = MainViewModel()
         viewCodeSetup()
     }
 }
 
 extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func setupCollectionView() {
+        firstCollectionView?.register(FirstCollectionViewCell.self, forCellWithReuseIdentifier: FirstCollectionViewCell.cellid)
+        productsCollectionView?.register(ProductsCollectionViewCell.self, forCellWithReuseIdentifier: ProductsCollectionViewCell.cellid)
+        
+        firstCollectionView?.delegate = self
+        firstCollectionView?.dataSource = self
+        productsCollectionView?.delegate = self
+        productsCollectionView?.dataSource = self
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        if collectionView == firstCollectionView {
+            return viewModel?.spotlightList.count ?? 0
+        } else {
+            return viewModel?.productsList.count ?? 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = firstCollectionView?.dequeueReusableCell(withReuseIdentifier: FirstCollectionViewCell.cellid, for: indexPath) as! FirstCollectionViewCell
-        return cell
+        if collectionView == firstCollectionView {
+            let cell = firstCollectionView?.dequeueReusableCell(withReuseIdentifier: FirstCollectionViewCell.cellid, for: indexPath) as! FirstCollectionViewCell
+            if let data = viewModel?.spotlightList[indexPath.item] {
+                cell.setupCell(imageUrl: data)
+            }
+            return cell
+        } else {
+            let cell = productsCollectionView?.dequeueReusableCell(withReuseIdentifier: ProductsCollectionViewCell.cellid, for: indexPath) as! ProductsCollectionViewCell
+            if let data = viewModel?.productsList[indexPath.item] {
+                cell.setupCell(imageUrl: data)
+            }
+            return cell
+        }
+
     }
 }
 
@@ -75,4 +104,18 @@ extension MainViewController: ViewCodeProtocol {
         productsLabel.font = UIFont.systemFont(ofSize: 35)
         productsLabel.text = "PRODUCTS TEXT!!!"
     }
+}
+
+extension MainViewController: MainViewModelDelegate {
+    func successList() {
+        firstCollectionView?.reloadData()
+        productsCollectionView?.reloadData()
+    }
+    
+    func errorList(error: String) {
+        firstCollectionView?.reloadData()
+        productsCollectionView?.reloadData()
+    }
+    
+    
 }

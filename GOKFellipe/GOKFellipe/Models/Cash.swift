@@ -11,4 +11,17 @@ struct Cash: Codable {
     var title: String?
     var bannerUrl: String?
     var description: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case title = "title"
+        case bannerUrl = "bannerUrl"
+        case description = "description"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        title = try values.decodeIfPresent(String.self, forKey: .title)
+        bannerUrl = try values.decodeIfPresent(String.self, forKey: .bannerUrl)
+        description = try values.decodeIfPresent(String.self, forKey: .description)
+    }
 }

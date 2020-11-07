@@ -17,4 +17,11 @@ struct Spotlight: Codable {
         case bannerUrl = "bannerUrl"
         case description = "description"
     }
+    
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        name = try values.decodeIfPresent(String.self, forKey: .name)
+        bannerUrl = try values.decodeIfPresent(String.self, forKey: .bannerUrl)
+        description = try values.decodeIfPresent(String.self, forKey: .description)
+    }
 }
