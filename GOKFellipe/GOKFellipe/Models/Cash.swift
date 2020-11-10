@@ -14,7 +14,7 @@ struct Cash: Codable {
     
     enum CodingKeys: String, CodingKey {
         case title = "title"
-        case bannerUrl = "bannerUrl"
+        case bannerUrl = "bannerURL"
         case description = "description"
     }
     

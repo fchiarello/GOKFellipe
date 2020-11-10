@@ -14,7 +14,7 @@ struct Spotlight: Codable {
     
     enum CodingKeys: String, CodingKey {
         case name = "name"
-        case bannerUrl = "bannerUrl"
+        case bannerUrl = "bannerURL"
         case description = "description"
     }
     

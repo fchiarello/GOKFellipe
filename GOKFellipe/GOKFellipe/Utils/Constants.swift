@@ -9,4 +9,8 @@ import Foundation
 
 struct Constants {
     static let url = "https://7hgi9vtkdc.execute-api.sa-east-1.amazonaws.com/sandbox/products"
+    static let digioLogo = "digioLogo"
+    static let digio = "digio"
+    static let cash = "Cash"
+    static let error = "error"
 }

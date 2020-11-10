@@ -29,6 +29,7 @@ class MainViewModel: MainViewModelProtocol {
             self.productsList += list.products ?? []
             self.cash  = list.cash
             self.delegate?.successList()
+            print(self.cash)
         } onError: { (error) in
             self.delegate?.errorList(error: String(describing: error))
         }

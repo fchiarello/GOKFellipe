@@ -14,7 +14,7 @@ struct Products: Codable {
     
     enum CodingKeys: String, CodingKey {
         case name = "name"
-        case imageUrl = "imageUrl"
+        case imageUrl = "imageURL"
         case description = "description"
     }
     
