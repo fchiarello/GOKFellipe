@@ -42,11 +42,11 @@ class Service {
                     }
                 } else {
                     onError(.statusCodeError(code: response.statusCode))
-                    print("Erro no servidor")
+                    print(error ?? String())
                 }
             } else {
                 onError(.taskError(error: error!))
-                print("Algo Errado")
+                print(error ?? String())
             }
         }
         task.resume()

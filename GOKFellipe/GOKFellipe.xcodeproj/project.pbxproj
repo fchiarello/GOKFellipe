@@ -29,6 +29,7 @@
 		921EB0292556F80F00B64474 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0282556F80F00B64474 /* Constants.swift */; };
 		921EB03A2557618F00B64474 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB0392557618F00B64474 /* String+Extension.swift */; };
 		921EB03F25583F4400B64474 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB03E25583F4400B64474 /* UIImageView+Extension.swift */; };
+		921EB054255B705C00B64474 /* MainViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EB053255B705B00B64474 /* MainViewControllerSpec.swift */; };
 		EF13F2BC59BAC17106E33B0B /* Pods_GOKFellipe_GOKFellipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABC90DAC0B7F6081420381F /* Pods_GOKFellipe_GOKFellipeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		921EB0282556F80F00B64474 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		921EB0392557618F00B64474 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		921EB03E25583F4400B64474 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		921EB053255B705B00B64474 /* MainViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerSpec.swift; sourceTree = "<group>"; };
 		9DED5DFEFF9BCCA584EFD17B /* Pods-GOKFellipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOKFellipe.debug.xcconfig"; path = "Target Support Files/Pods-GOKFellipe/Pods-GOKFellipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 			children = (
 				921EAF8525532DDC00B64474 /* GOKFellipeTests.swift */,
 				921EAF8725532DDC00B64474 /* Info.plist */,
+				921EB053255B705B00B64474 /* MainViewControllerSpec.swift */,
 			);
 			path = GOKFellipeTests;
 			sourceTree = "<group>";
@@ -554,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921EB054255B705C00B64474 /* MainViewControllerSpec.swift in Sources */,
 				921EAF8625532DDC00B64474 /* GOKFellipeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

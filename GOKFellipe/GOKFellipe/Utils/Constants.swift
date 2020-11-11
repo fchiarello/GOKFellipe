@@ -13,4 +13,5 @@ struct Constants {
     static let digio = "digio"
     static let cash = "Cash"
     static let error = "error"
+    static let products = "Produtos"
 }
